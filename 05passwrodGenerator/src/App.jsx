@@ -23,7 +23,6 @@ function App() {
 
     setPassword(pass);
   }, [length, numberAllowed, charAllowed, setPassword]);
-  
 
   const copyPasswordToClipboard = useCallback(() => {
     passwordRef.current?.select();
@@ -76,7 +75,7 @@ function App() {
             defaultChecked={numberAllowed}
             id="numberInput"
             onChange={() => {
-              setNumberAllowed(prev => !prev);
+              setNumberAllowed((prev) => !prev);
             }}
           />
           <label className="text-base mr-8" htmlFor="numberInput">
