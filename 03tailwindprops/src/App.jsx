@@ -18,8 +18,8 @@ function App() {
     <>
       <h1 className="bg-green-400 p-4 text-black rounded-xl mb-4">Tailwind Test</h1>
 
-      <Card userName='SourabhKrSingh' btnText = 'click you'/>
-      <Card userName='Sourabh' btnText = 'click you'/>
+      <Card userName='Sourabh Kr Singh' btnText = 'click you'/>
+      <Card userName='Sourabh'/>
       
     </>
   );
